@@ -81,7 +81,7 @@
       const row = document.createElement("div");
       row.className = "cart-row";
       row.innerHTML =
-        `<a href="product.html?id=${p.id}" target="_blank" rel="noopener" class="cart-thumb"><img src="${p.im}" alt=""></a>
+        `<a href="product.html?id=${p.id}" class="cart-thumb"><img src="${p.im}" alt=""></a>
          <div class="cart-info">
            <span class="cart-name">${p.n}</span>
            ${it.size ? `<span class="mono cart-size">SIZE ${it.size}</span>` : ""}

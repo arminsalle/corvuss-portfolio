@@ -7,8 +7,6 @@
     const a = document.createElement("a");
     a.className = "card";
     a.href = `product.html?id=${p.id}`;
-    a.target = "_blank";
-    a.rel = "noopener";
     a.innerHTML =
       (tag ? `<span class="card-tag">${tag}</span>` : "") +
       `<div class="card-img"><img loading="lazy" src="${p.im}" alt="${p.n}"></div>` +
