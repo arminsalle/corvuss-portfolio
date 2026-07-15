@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VANSON LEATHERS — Hand-Built in the USA Since 1974</title>
+  <meta name="description" content="Premium leather motorcycle jackets and racing suits, hand-built one at a time in Fall River, Massachusetts since 1974." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ LOADER ============ -->
+  <div id="loader">
+    <div class="loader-brand">VANSON</div>
+    <div class="loader-pct" id="loader-pct">00%</div>
+    <div class="loader-label">[ LOADING — FALL RIVER, MA ]</div>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <nav class="nav" id="nav">
+    <a class="nav-brand" href="#hero">VANSON<span class="dim">/</span>LEATHERS</a>
+    <div class="nav-links">
+      <a href="#icons">COLLECTION</a>
+      <a href="#craft">CRAFT</a>
+      <a href="#heritage">HERITAGE</a>
+      <a href="shop.html" class="nav-shop">[ SHOP ALL <span id="nav-count">211</span> ]</a>
+    </div>
+    <form class="nav-search" action="shop.html" method="get">
+      <input type="search" name="q" placeholder="SEARCH THE RANGE…" autocomplete="off" aria-label="Search products" />
+    </form>
+    <a href="#" id="cart-btn" class="nav-cart">[ CART <span id="cart-count">0</span> ]</a>
+  </nav>
+
+  <!-- ============ 01 / HERO — jacket 360 scrub ============ -->
+  <section class="cinematic" id="hero">
+    <div class="sticky">
+      <canvas></canvas>
+      <div class="vignette"></div>
+      <div class="hero-title">
+        <h1>VANSON</h1>
+        <div class="hero-sub mono">LEATHER MOTORCYCLE JACKETS — HAND MADE IN THE U.S.A.</div>
+      </div>
+      <div class="overlay">
+        <h2 class="reveal-line" data-in="0.10" data-out="0.38">EVERY VANSON IS BUILT BY HAND.</h2>
+        <h2 class="reveal-line" data-in="0.42" data-out="0.68">ONE AT A TIME. IN FALL RIVER.</h2>
+        <h2 class="reveal-line" data-in="0.72" data-out="0.97">SINCE 1974.</h2>
+      </div>
+      <div class="telemetry tl mono">01 / THE JACKET</div>
+      <div class="telemetry tr mono">( EST. 1974 )</div>
+      <div class="telemetry bl mono" id="hero-frame">FRAME 000 / 180</div>
+      <div class="telemetry br mono">951 BROADWAY — FALL RIVER, MA</div>
+      <div class="progress"><div class="progress-fill" id="hero-progress"></div></div>
+      <div class="scroll-hint mono">TIP: SCROLL TO DIVE ▾</div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track" id="marquee-track"></div>
+  </div>
+
+  <!-- ============ 02 / THE ICONS ============ -->
+  <section class="section" id="icons">
+    <header class="sec-head reveal">
+      <span class="mono sec-num">02. THE ICONS</span>
+      <h2>WORN IN. NEVER<br/>WORN OUT.</h2>
+    </header>
+    <div class="grid" id="icons-grid"></div>
+    <a class="cta-line reveal" href="shop.html">[ SEE ALL <span class="js-total">422</span> PRODUCTS ]</a>
+  </section>
+
+  <!-- ============ 03 / CRAFT — sewing macro scrub ============ -->
+  <section class="cinematic" id="craft">
+    <div class="sticky">
+      <canvas></canvas>
+      <div class="vignette"></div>
+      <div class="overlay">
+        <h2 class="reveal-line" data-in="0.08" data-out="0.36">49 STEPS IN OUR SIMPLEST JACKET.</h2>
+        <h2 class="reveal-line" data-in="0.40" data-out="0.66">126 IN OUR MOST COMPLEX.</h2>
+        <h2 class="reveal-line" data-in="0.70" data-out="0.97">EVERY SINGLE ONE — BY HAND.</h2>
+      </div>
+      <div class="telemetry tl mono">03 / THE CRAFT</div>
+      <div class="telemetry tr mono">( PROPRIETARY TANNING )</div>
+      <div class="telemetry br mono">COMPETITION-WEIGHT LEATHER</div>
+    </div>
+  </section>
+
+  <!-- ============ 04 / CATEGORIES ============ -->
+  <section class="section" id="categories">
+    <header class="sec-head reveal">
+      <span class="mono sec-num">04. CATEGORIES</span>
+      <h2>THE FULL RANGE.</h2>
+    </header>
+    <div class="cat-list" id="cat-list"></div>
+    <div class="cat-preview" id="cat-preview"><img alt="" /></div>
+  </section>
+
+  <!-- ============ 05 / SEEN ON ============ -->
+  <section class="section" id="press">
+    <header class="sec-head reveal">
+      <span class="mono sec-num">05. SEEN ON</span>
+      <h2>FROM FALL RIVER<br/>TO THE SUPER BOWL.</h2>
+    </header>
+    <div class="press-list">
+      <div class="press-item reveal">
+        <span class="mono press-when">( 2025 — SUPER BOWL LIX )</span>
+        <h3>DJ MUSTARD</h3>
+        <p>A one-of-one custom Vanson on the halftime stage, designed with our creative director Da&rsquo;von Bean. A collaboration line is on the way.</p>
+      </div>
+      <div class="press-item reveal">
+        <span class="mono press-when">( 2025 — SNL )</span>
+        <h3>MADONNA</h3>
+        <p>Custom-made Vanson, worn on Saturday Night Live. Hand-cut in the same Fall River workshop as every jacket we ship.</p>
+      </div>
+      <div class="press-item reveal">
+        <span class="mono press-when">( LIMITED EDITION )</span>
+        <h3>VALENTINO ROSSI</h3>
+        <p>The Vanson/Rossi MVR jacket — racing heritage stitched into a street legend.</p>
+      </div>
+      <div class="press-item reveal">
+        <span class="mono press-when">( TOUR EDITION )</span>
+        <h3>RUSH</h3>
+        <p>Limited edition RUSH tour jackets. Rock and leather have always spoken the same language.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 06 / THE RIDE — rider orbit scrub ============ -->
+  <section class="cinematic" id="ride">
+    <div class="sticky">
+      <canvas></canvas>
+      <div class="vignette"></div>
+      <div class="overlay">
+        <h2 class="reveal-line" data-in="0.08" data-out="0.36">PROVEN AT 200 MPH.</h2>
+        <h2 class="reveal-line quote" data-in="0.40" data-out="0.68">&ldquo;I walked away from a second 200&nbsp;mph crash. No injuries. No damage.&rdquo;</h2>
+        <h2 class="reveal-line" data-in="0.72" data-out="0.97">GEAR THAT KEEPS ITS PROMISES.</h2>
+      </div>
+      <div class="telemetry tl mono">06 / THE RIDE</div>
+      <div class="telemetry tr mono">( RACE CONTINGENCY PROGRAM )</div>
+      <div class="telemetry br mono">— K. HOGAN, LAND SPEED RACER</div>
+    </div>
+  </section>
+
+  <!-- ============ 07 / HERITAGE ============ -->
+  <section class="section" id="heritage">
+    <header class="sec-head reveal">
+      <span class="mono sec-num">07. HERITAGE</span>
+      <h2>FIFTY-TWO YEARS.<br/>ONE WORKSHOP.</h2>
+    </header>
+    <div class="stats">
+      <div class="stat reveal"><span class="stat-num" data-count="52">0</span><span class="mono stat-label">YEARS HAND-BUILDING</span></div>
+      <div class="stat reveal"><span class="stat-num" data-count="126">0</span><span class="mono stat-label">STEPS PER JACKET, UP TO</span></div>
+      <div class="stat reveal"><span class="stat-num js-total-stat" data-count="422">0</span><span class="mono stat-label">PRODUCTS IN THE RANGE</span></div>
+      <div class="stat reveal"><span class="stat-num" data-count="1">0</span><span class="mono stat-label">WORKSHOP — FALL RIVER, MA</span></div>
+    </div>
+    <div class="timeline">
+      <div class="tl-item reveal"><span class="mono">1974</span><p>Vanson builds its first bike jacket with an eye toward improved performance — and a debt to the legacy of the leather jacket.</p></div>
+      <div class="tl-item reveal"><span class="mono">1980s</span><p>Secret proprietary tanning and finishing. Competition-weight leather becomes the Vanson signature on racetracks across America.</p></div>
+      <div class="tl-item reveal"><span class="mono">1990s–2000s</span><p>Race leathers save skin at national events; the Race Contingency Program pays riders to crash-test what we already know.</p></div>
+      <div class="tl-item reveal"><span class="mono">2025</span><p>Super Bowl LIX halftime. SNL. The workshop stays the same size. The stage doesn&rsquo;t.</p></div>
+      <div class="tl-item reveal"><span class="mono">TODAY</span><p>Every jacket still cut and sewn at 951 Broadway. An heirloom, not a purchase — wear it, wear it in, pass it down.</p></div>
+    </div>
+  </section>
+
+  <!-- ============ 08 / CTA + FOOTER ============ -->
+  <section class="section" id="contact">
+    <div class="cta-block reveal">
+      <span class="mono sec-num">08. CUSTOM</span>
+      <h2>BUILD YOURS.</h2>
+      <p class="cta-copy">Custom jackets and race suits, measured to your body and built to your spec — the same way we&rsquo;ve done it for fifty-two years.</p>
+      <a class="cta-line" href="https://www.vansonleathers.com/content/285-custom-jacket-measuring-form" target="_blank" rel="noopener">[ START A CUSTOM ORDER ]</a>
+    </div>
+    <footer class="footer">
+      <div class="foot-col">
+        <span class="mono foot-head">VISIT</span>
+        <p>VANSON Leathers, Inc<br/>951 Broadway<br/>Fall River, MA 02724, USA</p>
+      </div>
+      <div class="foot-col">
+        <span class="mono foot-head">CONTACT</span>
+        <p><a href="tel:+15086782000">+1 (508) 678-2000</a><br/>
+           <a href="mailto:vanson@vansonleathers.com">vanson@vansonleathers.com</a></p>
+      </div>
+      <div class="foot-col">
+        <span class="mono foot-head">SHOP</span>
+        <p><a href="shop.html">All products</a><br/>
+           <a href="https://www.vansonleathers.com" target="_blank" rel="noopener">vansonleathers.com</a></p>
+      </div>
+      <div class="foot-legal mono">
+        <p>© 2026 VANSON LEATHERS, INC. — HAND MADE IN THE U.S.A.</p>
+        <p class="prop65">CA Prop 65: products may expose you to chemicals known to the State of California to cause cancer or reproductive harm — <a href="https://www.p65warnings.ca.gov/" target="_blank" rel="noopener">p65warnings.ca.gov</a></p>
+      </div>
+    </footer>
+  </section>
+
+  <script src="assets/lenis.min.js"></script>
+  <script src="data/products.js?v=4"></script>
+  <script src="cards.js?v=4"></script>
+  <script src="cart.js?v=4"></script>
+  <script>
+    window.SCRUB_SECTIONS = [
+      { section: "#hero",  frameCount: 180, bg: "#0a0908",
+        framePath: (i) => `frames/hero/frame_${String(i).padStart(4, "0")}.jpg`,
+        onProgress: (p, idx) => {
+          const f = document.getElementById("hero-frame");
+          if (f) f.textContent = `FRAME ${String(idx).padStart(3, "0")} / 180`;
+          const pf = document.getElementById("hero-progress");
+          if (pf) pf.style.width = (p * 100).toFixed(1) + "%";
+          const t = document.querySelector(".hero-title");
+          if (t) t.style.opacity = Math.max(0, 1 - p * 3.2).toFixed(3);
+        } },
+      { section: "#craft", frameCount: 179, bg: "#0a0908",
+        framePath: (i) => `frames/craft/frame_${String(i).padStart(4, "0")}.jpg` },
+      { section: "#ride",  frameCount: 179, bg: "#0a0908",
+        framePath: (i) => `frames/ride/frame_${String(i).padStart(4, "0")}.jpg` },
+    ];
+  </script>
+  <script src="scroll-cinematic.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>

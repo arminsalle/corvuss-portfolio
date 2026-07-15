@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VANSON LEATHERS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="product-page">
+
+  <nav class="nav">
+    <a class="nav-brand" href="index.html">VANSON<span class="dim">/</span>LEATHERS</a>
+    <div class="nav-links">
+      <a href="index.html#icons">COLLECTION</a>
+      <a href="index.html#craft">CRAFT</a>
+      <a href="index.html#heritage">HERITAGE</a>
+      <a href="shop.html" class="nav-shop">[ SHOP ]</a>
+    </div>
+    <form class="nav-search" action="shop.html" method="get">
+      <input type="search" name="q" placeholder="SEARCH THE RANGE…" autocomplete="off" aria-label="Search products" />
+    </form>
+    <a href="#" id="cart-btn" class="nav-cart">[ CART <span id="cart-count">0</span> ]</a>
+  </nav>
+
+  <main class="pd" id="pd">
+    <div class="pd-crumb mono" id="pd-crumb"></div>
+    <div class="pd-grid">
+      <div class="pd-gallery" id="pd-gallery">
+        <div class="pd-stage" id="pd-stage"><img id="pd-main" alt="" /></div>
+        <div class="pd-thumbs" id="pd-thumbs"></div>
+      </div>
+      <div class="pd-info">
+        <span class="mono pd-cat" id="pd-cat"></span>
+        <h1 id="pd-name"></h1>
+        <div class="pd-price mono" id="pd-price"></div>
+        <div class="pd-desc" id="pd-short"></div>
+        <div class="pd-sizes" id="pd-sizes" hidden>
+          <span class="mono pd-sizes-label">SELECT SIZE — <b id="pd-size-sel">NONE</b></span>
+          <div class="pd-size-grid" id="pd-size-grid"></div>
+        </div>
+        <div class="pd-actions">
+          <button class="pd-cta" id="pd-add">[ ADD TO CART ]</button>
+          <a class="pd-cta ghost" id="pd-order" href="#" target="_blank" rel="noopener">[ CUSTOM ORDER ON VANSONLEATHERS.COM ]</a>
+        </div>
+        <div class="pd-notes mono">
+          <span>HAND-BUILT IN FALL RIVER, MA — U.S.A.</span>
+          <span>1-YEAR LIMITED WARRANTY ON ALL LEATHER GARMENTS</span>
+          <span>CUSTOM SIZING AVAILABLE ON REQUEST</span>
+        </div>
+      </div>
+    </div>
+    <section class="pd-long" id="pd-long-wrap">
+      <span class="mono sec-num">THE DETAILS</span>
+      <div class="pd-desc pd-desc-long" id="pd-long"></div>
+    </section>
+    <section class="pd-related">
+      <span class="mono sec-num">MORE FROM THIS RANGE</span>
+      <div class="grid" id="pd-related-grid"></div>
+    </section>
+  </main>
+
+  <footer class="shop-footer">
+    <div class="foot-legal mono">
+      <p>© 2026 VANSON LEATHERS, INC — 951 BROADWAY, FALL RIVER, MA 02724 — +1 (508) 678-2000</p>
+      <p class="prop65">CA Prop 65: products may expose you to chemicals known to the State of California to cause cancer or reproductive harm — <a href="https://www.p65warnings.ca.gov/" target="_blank" rel="noopener">p65warnings.ca.gov</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/lenis.min.js"></script>
+  <script src="data/products.js?v=4"></script>
+  <script src="data/details.js?v=4"></script>
+  <script src="cards.js?v=4"></script>
+  <script src="cart.js?v=4"></script>
+  <script src="product.js?v=4"></script>
+</body>
+</html>

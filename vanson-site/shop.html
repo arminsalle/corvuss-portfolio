@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop All — VANSON LEATHERS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <a class="nav-brand" href="index.html">VANSON<span class="dim">/</span>LEATHERS</a>
+    <div class="nav-links">
+      <a href="index.html#icons">COLLECTION</a>
+      <a href="index.html#craft">CRAFT</a>
+      <a href="index.html#heritage">HERITAGE</a>
+      <a href="shop.html" class="nav-shop">[ SHOP ]</a>
+    </div>
+    <form class="nav-search" action="shop.html" method="get">
+      <input type="search" name="q" placeholder="SEARCH THE RANGE…" autocomplete="off" aria-label="Search products" />
+    </form>
+    <a href="#" id="cart-btn" class="nav-cart">[ CART <span id="cart-count">0</span> ]</a>
+  </nav>
+
+  <header class="shop-head">
+    <h1>THE FULL RANGE.</h1>
+    <span class="mono shop-sub">EVERY PRODUCT WE MAKE — HAND-BUILT IN FALL RIVER, MA</span>
+  </header>
+
+  <div class="shop-tools" id="shop-tools">
+    <input class="shop-search" id="shop-search" type="search" placeholder="SEARCH THE RANGE…" autocomplete="off" />
+  </div>
+
+  <main class="shop-grid-wrap">
+    <span class="shop-count" id="shop-count"></span>
+    <div class="grid" id="shop-grid"></div>
+  </main>
+
+  <footer class="shop-footer">
+    <div class="foot-legal mono">
+      <p>© 2026 VANSON LEATHERS, INC — 951 BROADWAY, FALL RIVER, MA 02724 — +1 (508) 678-2000</p>
+      <p class="prop65">CA Prop 65: products may expose you to chemicals known to the State of California to cause cancer or reproductive harm — <a href="https://www.p65warnings.ca.gov/" target="_blank" rel="noopener">p65warnings.ca.gov</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/lenis.min.js"></script>
+  <script src="data/products.js?v=4"></script>
+  <script src="cards.js?v=4"></script>
+  <script src="cart.js?v=4"></script>
+  <script src="shop.js?v=4"></script>
+</body>
+</html>
