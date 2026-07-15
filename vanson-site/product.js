@@ -95,9 +95,5 @@
   const grid = document.getElementById("pd-related-grid");
   rel.forEach((r) => grid.appendChild(window.vansonCard(r)));
 
-  if (window.Lenis) {
-    const lenis = new Lenis({ lerp: 0.09, smoothWheel: true });
-    function raf(t) { lenis.raf(t); requestAnimationFrame(raf); }
-    requestAnimationFrame(raf);
-  }
+  /* native scrolling — smoothest for content pages */
 })();

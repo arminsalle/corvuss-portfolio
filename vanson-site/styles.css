@@ -211,6 +211,7 @@ body::after {
 .card {
   background: var(--coal); position: relative; overflow: hidden;
   display: flex; flex-direction: column;
+  content-visibility: auto; contain-intrinsic-size: auto 460px;
 }
 .card-img {
   aspect-ratio: 1 / 1; overflow: hidden; position: relative;
@@ -228,7 +229,7 @@ body::after {
   position: relative; z-index: 1;
   width: 100%; height: 100%; object-fit: contain; display: block;
   padding: 8%;
-  filter: drop-shadow(0 14px 22px rgba(0, 0, 0, 0.6)) brightness(1.14) contrast(1.04);
+  filter: drop-shadow(0 10px 12px rgba(0, 0, 0, 0.55)) brightness(1.14) contrast(1.04);
   transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
   will-change: transform;
   transform-style: preserve-3d;

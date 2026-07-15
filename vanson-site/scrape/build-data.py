@@ -63,7 +63,7 @@ for i, p in enumerate(products):
         "id": pid,
         "n": clean_name(p["name"]),
         "pr": p["price"].strip(),
-        "im": f"assets/pc/{base}.webp?v=4",
+        "im": f"assets/pc/{base}.webp?v=5",
         "u": p["url"],
         "g": group,
     })
