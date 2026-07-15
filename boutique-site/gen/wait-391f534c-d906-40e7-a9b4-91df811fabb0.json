@@ -1,0 +1,20 @@
+{
+  "id": "391f534c-d906-40e7-a9b4-91df811fabb0",
+  "status": "completed",
+  "display_name": "Nano Banana Pro",
+  "job_set_type": "nano_banana_2",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_38QWRkH5bWVEqdVoBcoyjuKMDpX/hf_20260712_151411_391f534c-d906-40e7-a9b4-91df811fabb0.png",
+  "created_at": 1783869251.027882,
+  "params": {
+    "width": 2752,
+    "height": 1536,
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "batch_size": 1,
+    "input_images": [],
+    "input_image": null,
+    "application": null,
+    "surface": null,
+    "prompt": "Luxury penthouse living room interior at dusk, floor-to-ceiling windows with a view of the Manhattan skyline across the Hudson River, polished Calacatta marble floors with soft reflections, cream boucle sofas, sculptural stone fireplace, warm brass cove lighting, editorial interior photography, ultra sharp, photorealistic, 8k"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "4c93e751-5413-4dcb-bd54-bf267fb38de0",
+  "status": "completed",
+  "display_name": "Seedance 2.0",
+  "job_set_type": "seedance_2_0",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_38QWRkH5bWVEqdVoBcoyjuKMDpX/hf_20260712_151637_4c93e751-5413-4dcb-bd54-bf267fb38de0.mp4",
+  "created_at": 1783869397.107698,
+  "params": {
+    "width": 1920,
+    "height": 1080,
+    "prompt": "Slow continuous forward cinematic dolly gliding low across the infinity pool toward the glowing glass facade of the modern luxury waterfront estate at dusk, Manhattan skyline glittering across the river, gentle parallax, water reflections shimmering, single continuous shot, no cuts, smooth steady camera",
+    "genre": "auto",
+    "medias": [
+      {
+        "data": {
+          "id": "d001849b-f5bb-4a99-a72a-71987b03a14e",
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38QWRkH5bWVEqdVoBcoyjuKMDpX/hf_20260712_151410_d001849b-f5bb-4a99-a72a-71987b03a14e.png",
+          "type": "nano_banana_2_job"
+        },
+        "role": "start_image"
+      }
+    ],
+    "duration": 6,
+    "resolution": "1080p",
+    "aspect_ratio": "16:9",
+    "generate_audio": false,
+    "multi_shots": false,
+    "multi_shot_mode": "custom",
+    "multi_prompt": [],
+    "speedramp": "auto",
+    "reference_elements": [],
+    "prompt_language": "en",
+    "mode": "std",
+    "model": "seedance_2_0",
+    "bitrate_mode": "standard"
+  }
+}

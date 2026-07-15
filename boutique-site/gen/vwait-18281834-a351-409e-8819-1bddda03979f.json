@@ -1,0 +1,37 @@
+{
+  "id": "18281834-a351-409e-8819-1bddda03979f",
+  "status": "completed",
+  "display_name": "Seedance 2.0",
+  "job_set_type": "seedance_2_0",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_38QWRkH5bWVEqdVoBcoyjuKMDpX/hf_20260712_151637_18281834-a351-409e-8819-1bddda03979f.mp4",
+  "created_at": 1783869397.051595,
+  "params": {
+    "width": 1920,
+    "height": 1080,
+    "prompt": "Slow continuous forward camera glide down the dark wood-paneled penthouse corridor at night toward the glass doors and glittering New York City lights, smooth cinematic dolly, marble floor reflections drifting, warm cove lighting steady, single continuous shot, no cuts",
+    "genre": "auto",
+    "medias": [
+      {
+        "data": {
+          "id": "f3e59f39-4792-47a8-a230-b586cdcf5dcf",
+          "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38QWRkH5bWVEqdVoBcoyjuKMDpX/hf_20260712_151410_f3e59f39-4792-47a8-a230-b586cdcf5dcf.png",
+          "type": "nano_banana_2_job"
+        },
+        "role": "start_image"
+      }
+    ],
+    "duration": 6,
+    "resolution": "1080p",
+    "aspect_ratio": "16:9",
+    "generate_audio": false,
+    "multi_shots": false,
+    "multi_shot_mode": "custom",
+    "multi_prompt": [],
+    "speedramp": "auto",
+    "reference_elements": [],
+    "prompt_language": "en",
+    "mode": "std",
+    "model": "seedance_2_0",
+    "bitrate_mode": "standard"
+  }
+}

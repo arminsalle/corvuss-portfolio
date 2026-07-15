@@ -1,0 +1,20 @@
+{
+  "id": "f3e59f39-4792-47a8-a230-b586cdcf5dcf",
+  "status": "completed",
+  "display_name": "Nano Banana Pro",
+  "job_set_type": "nano_banana_2",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_38QWRkH5bWVEqdVoBcoyjuKMDpX/hf_20260712_151410_f3e59f39-4792-47a8-a230-b586cdcf5dcf.png",
+  "created_at": 1783869250.887262,
+  "params": {
+    "width": 2752,
+    "height": 1536,
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "batch_size": 1,
+    "input_images": [],
+    "input_image": null,
+    "application": null,
+    "surface": null,
+    "prompt": "Dark moody luxury penthouse interior at night, warm wood-paneled hallway with ambient cove lighting opening into a grand living space, floor-to-ceiling glass doors revealing glittering New York City lights beyond, dark marble floor with mirror reflections, cinematic noir elegance, ultra sharp, photorealistic, 8k, editorial"
+  }
+}

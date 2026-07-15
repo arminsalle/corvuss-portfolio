@@ -1,0 +1,20 @@
+{
+  "id": "d001849b-f5bb-4a99-a72a-71987b03a14e",
+  "status": "completed",
+  "display_name": "Nano Banana Pro",
+  "job_set_type": "nano_banana_2",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_38QWRkH5bWVEqdVoBcoyjuKMDpX/hf_20260712_151410_d001849b-f5bb-4a99-a72a-71987b03a14e.png",
+  "created_at": 1783869250.817862,
+  "params": {
+    "width": 2752,
+    "height": 1536,
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "batch_size": 1,
+    "input_images": [],
+    "input_image": null,
+    "application": null,
+    "surface": null,
+    "prompt": "Cinematic exterior of a modern luxury waterfront estate at golden dusk on the New Jersey Gold Coast, floor-to-ceiling glass walls glowing with warm interior light, infinity-edge reflecting pool in foreground, Manhattan skyline glittering across the Hudson River in the far background, moody indigo-and-amber sky, ultra sharp, photorealistic, 8k, Architectural Digest editorial photography"
+  }
+}
